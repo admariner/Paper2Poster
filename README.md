@@ -20,6 +20,7 @@ We address **How to create a poster from a paper** and **How to evaluate poster.
 ![Overview](./assets/teaser.jpeg)
 
 ## 🔥 Update
+- [x] [2025.10.7] Check out follow-up **[Paper2Video](https://github.com/showlab/Paper2Video)**.
 - [x] [2025.11.3] Added **Gradio demo** support.
 - [x] [2025.10.18] Added **Docker** support.
 - [x] [2025.10.13] Added automatic **logo support** for conferences and institutions, **YAML-based style customization**, a new default theme.
