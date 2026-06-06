@@ -20,6 +20,7 @@ We address **How to create a poster from a paper** and **How to evaluate poster.
 ![Overview](./assets/teaser.jpeg)
 
 ## 🔥 Update
+- [x] [2026.6.6] We introduce lightweight [Paper2Poster SKILL](https://github.com/Paper2Poster/Paper2Poster/tree/main/skills).
 - [x] [2025.10.7] Check out follow-up **[Paper2Video](https://github.com/showlab/Paper2Video)**.
 - [x] [2025.11.3] Added **Gradio demo** support.
 - [x] [2025.10.18] Added **Docker** support.
@@ -27,6 +28,20 @@ We address **How to create a poster from a paper** and **How to evaluate poster.
 - [x] [2025.9.18] Paper2Poster has been accepted to **NeurIPS 2025 Dataset and Benchmark Track**.
 - [x] [2025.9.3]  We now support generate per section content in **parallel** for faster generation, by simply specifying `--max_workers`.
 - [x] [2025.5.27] We release the [arXiv](https://arxiv.org/abs/2505.21497), [code](https://github.com/Paper2Poster/Paper2Poster) and [`dataset`](https://huggingface.co/datasets/Paper2Poster/Paper2Poster)
+
+## Agent Skill
+
+We provide a lightweight skill in `skills/` for AI agents such as Codex or Claude to help prepare poster-ready content from a paper.
+
+It can be used to draft poster copy, suggest layout structure, prepare a `poster.yaml`, and generate a Paper2Poster-ready command.
+
+For Codex, you can invoke:
+
+```
+Use $paper2poster-poster to turn this paper into a poster package.
+```
+
+See `skills/README.md` for more examples.
 
 <!--## 📚 Introduction-->
 
