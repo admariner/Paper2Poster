@@ -53,11 +53,9 @@ We address **How to create a poster from a paper** and **How to evaluate poster.
 
 ## 🧰 Agent SKILL
 
-We provide a lightweight skill in `skills/` for AI agents such as Codex or Claude to help prepare poster-ready content from a paper.
+We provide a lightweight skill (without the need of dependency) in `skills/` for AI agents such as Codex or Claude to help prepare poster-ready content from a paper.
 
-It can be used to draft poster copy, suggest layout structure, prepare a `poster.yaml`, and generate a Paper2Poster-ready command.
-
-For Codex, you can invoke:
+For example, in Codex, you can invoke:
 
 ```
 Use $paper2poster-poster to turn this paper into a poster package.
