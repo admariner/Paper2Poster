@@ -34,9 +34,7 @@ Use $paper2poster-poster to turn `paper.pdf` into a NeurIPS-style 48x36 poster p
 
 ## Claude usage
 
-Claude will not automatically read `SKILL.md` the same way Codex does, so the simplest approach is:
-
-1. Give Claude the paper or paper text.
+1. Give Claude the paper pdf.
 2. Paste one of the prompts from `paper2poster-poster/references/example-prompts.md`.
 3. If needed, also paste key constraints from `paper2poster-poster/references/inputs-and-deliverables.md`.
 
